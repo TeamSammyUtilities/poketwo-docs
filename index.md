@@ -20,7 +20,7 @@ In 2022 during the slash command migration, Pokétwo transitioned from the `p!` 
 As of 2026, Pokétwo has an approximately 2 millions server and 7.5 millions users.
 ## Cites
 ## Links
-Official Website • https://poketwo.net/
-Official Community Server • https://discord.com/invite/poketwo
-Official Support Server • https://discord.com/invite/poketwo-support
-Official Bot • https://discord.com/oauth2/authorize?client_id=716390085896962058&permissions=387144&scope=bot+applications.commands
+Official Website • <https://poketwo.net/> <br>
+Official Community Server • <https://discord.com/invite/poketwo> <br>
+Official Support Server • <https://discord.com/invite/poketwo-support> <br>
+Official Bot • <https://discord.com/oauth2/authorize?client_id=716390085896962058&permissions=387144&scope=bot+applications.commands>
