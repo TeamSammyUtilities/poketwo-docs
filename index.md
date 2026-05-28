@@ -6,7 +6,7 @@ Pokétwo is a discord bot that allow players to catch Pokémon within discord
 <small>• For full guide visit [Catching]({{ sitebase }}catching)</small>
 Chat to trigger wild Pokémon spawns and outrace your friends to catch them first!
 
-Grow your collection, complete your Pokédex, and show off your rare Pokémon like [Shinies], or Rares.
+Grow your collection, complete your Pokédex, and show off your rare Pokémon like [Shinies]({{ sitebase }}shiny), or Rares.
 
 • Trade and Sell Pokémon <br>
 <small>• For the full guide visit [Trading]</small>
