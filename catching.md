@@ -1,4 +1,3 @@
-```
 # Catching 
 ## Spawning 
 Pokémon spawn based on message activity, which is 24 valid messages. Messages that classified as valid needs to be visible to Pokétwo, 1.5 seconds apart from the same users, 1 second apart from the server, not a command, and not a message from a bot.
@@ -34,4 +33,3 @@ Quests in Pokétwo are categorized in two category, regional quests, and type qu
 | 100    | 10,000PC |
 | 200    | 20,000PC |
 | 500    | 50,000PC |
-```
