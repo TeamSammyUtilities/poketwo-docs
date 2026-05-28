@@ -1,0 +1,27 @@
+name: Manual Merge New-Articles to Main
+
+on:
+  workflow_dispatch: # Enables manual triggering from the Actions tab
+
+jobs:
+  merge-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetches full history to allow merging
+
+      - name: Set up Git identity
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@://github.com"
+
+      - name: Merge branch into main
+        run: |
+          git fetch origin New-Articles:New-Articles
+          git checkout main
+          git merge New-Articles --no-ff -m "Manual merge from 'New-Articles' to main"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
